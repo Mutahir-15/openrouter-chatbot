@@ -60,4 +60,4 @@ uv pip install streamlit requests
 streamlit run chatbot.py
 ```
 
-Enjoy! 
+Happy chatting! 
