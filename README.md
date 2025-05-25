@@ -27,6 +27,6 @@ Users can input their **own API keys** and interact with advanced LLMs like GPT-
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/openrouter-chatbot.git
+git clone https://github.com/Mutahir-15/openrouter-chatbot.git
 cd openrouter-chatbot
 ```
