@@ -78,7 +78,7 @@ if api_key and question:
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:8501"
+        "HTTP-Referer": "https://openrouter-chatbot.streamlit.app/"
     }
     data = {
         "model": model_id,
