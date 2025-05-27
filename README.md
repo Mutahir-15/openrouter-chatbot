@@ -30,3 +30,34 @@ Users can input their **own API keys** and interact with advanced LLMs like GPT-
 git clone https://github.com/Mutahir-15/openrouter-chatbot.git
 cd openrouter-chatbot
 ```
+
+## 🛠️ Installation
+
+```
+uv venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+## Install Dependencies
+
+```
+uv pip install -r requirements.txt
+```
+**Or manually**:
+```
+uv pip install streamlit requests
+```
+
+## 🔑 Get Your OpenRouter API Key
+
+- Go to [https://openrouter.ai](https://openrouter.ai/)
+- Sign in with Google
+- Navigate to Account → API Keys
+- Generate a new API key and copy it
+
+## 🧠 Run the Chatbot
+```
+streamlit run chatbot.py
+```
+
+Happy chatting! 
