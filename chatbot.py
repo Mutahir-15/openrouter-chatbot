@@ -86,7 +86,7 @@ if api_key and question:
             {"role": "system", "content": "You are an autonomous, helpful AI agent that provides concise, accurate, and natural responses to user queries about Agentic AI and related technologies."},
             *st.session_state.chat_history
         ],
-        "max_tokens": 500  # Optional: Limit response length
+        "max_tokens": 500
     }
 
     with st.spinner("Thinking..."):
@@ -97,7 +97,7 @@ if api_key and question:
                 json=data,
                 timeout=30
             )
-            response.raise_for_status()  # Raises an HTTPError for bad responses
+            response.raise_for_status()
             reply = response.json()["choices"][0]["message"]["content"]
             st.session_state.chat_history.append({"role": "assistant", "content": reply})
             with st.chat_message("assistant"):
