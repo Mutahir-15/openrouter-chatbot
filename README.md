@@ -57,7 +57,7 @@ uv pip install streamlit requests
 
 ## 🧠 Run the Chatbot
 ```
-streamlit run chatbot.py
+uv run chatbot.py
 ```
 
 Happy chatting! 
